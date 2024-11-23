@@ -111,7 +111,7 @@ model.summary()
 """### training"""
 # Membuat folder untuk menyimpan model jika belum ada
 import os
-model_dir = 'saved model'
+model_dir = './ML/jagung model/saved model'
 if not os.path.exists(model_dir):
     os.makedirs(model_dir)
 
