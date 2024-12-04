@@ -8,8 +8,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from tensorflow.keras.callbacks import ModelCheckpoint
 
-
-
 """### load datataset
 
 """
@@ -38,8 +36,8 @@ val_test_dataset = tf.keras.preprocessing.image_dataset_from_directory(
     batch_size=None
 )
 
-
-val_batches = int(0.5 * len(val_test_dataset)) #val test bagi 2
+#val test bagi 2
+val_batches = int(0.5 * len(val_test_dataset)) 
 
 #val data set
 validation_dataset = val_test_dataset.take(val_batches)
