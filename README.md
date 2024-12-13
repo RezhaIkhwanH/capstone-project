@@ -20,14 +20,13 @@ Plantgard is a mobile app that leverages AI and cloud computing to help Indonesi
 ## What’s Inside This Repository?
 
 - **Model Code**: Implementation of the crop disease detection model using TensorFlow.
-- **Dataset Pipeline**: Scripts for preprocessing and augmenting the dataset for training.
 - **Training Notebooks**: Jupyter notebooks for model training and evaluation.
 - **Save Model**: Saved model files for deployment and further use.
 
 
 ## How can you clone the project??:
 You can clone this repository with this methods:
-* HTTPS: Use Git or SVN checkout by making use of this URL: https://github.com/Kimitozuki/EduSign-ML.git
+* HTTPS: Use Git or SVN checkout by making use of this URL:
   ```sh
   git clone https://github.com/RezhaIkhwanH/capstone-project-ML.git
   ```
@@ -36,17 +35,25 @@ You can clone this repository with this methods:
   gh repo clone RezhaIkhwanH/capstone-project-ML
   ```
 
-## Technology Used for ML Repo
+## Technology Used for ML
    - [Tensorflow](https://www.tensorflow.org/)
    - [Python](https://www.python.org/)
-   - [Flask](https://flask.palletsprojects.com/en/2.3.x/)
-   - [MediaPipe](https://developers.google.com/mediapipe/solutions)
 
 ## Dataset Resources
-   - [Kaggle - Google ISLR](https://www.kaggle.com/competitions/asl-signs/overview)
-   - [Kaggle - WASL](https://www.kaggle.com/datasets/risangbaskoro/wlasl-processed)
+   - [Jagung](https://drive.google.com/drive/folders/1oruQVOljnjXa5UijUcUHuHlzikhZH74w?usp=drive_link)
+   - [Cabe](https://drive.google.com/drive/folders/1DV4xXB4k0HFCSarRNBmDVuHwiJYuVuw8?usp=drive_link)
+   - [Padi](https://www.kaggle.com/datasets/risangbaskoro/wlasl-processed)
 
 ## API URL Created by CC Team
-Flask API URL: [https://flaskapp-cr-v4-cky5j3e4sq-et.a.run.app/](https://flaskapp-cr-v4-cky5j3e4sq-et.a.run.app/)
+API URL:[https://plantgard-api-684536012763.asia-southeast1.run.app/redoc](https://plantgard-api-684536012763.asia-southeast1.run.app/redoc)
 
+## Model Architecture
+### Jagung:
+<p align="center"> <img src="https://cdn.discordapp.com/attachments/1171704980990873640/1317001912931057664/model_flowchart_1.png?ex=675d191c&is=675bc79c&hm=4a58f16bedc4b278b2121385619326611eb97da67c0bd44fb318e72d62e99f32&" width="500" height="700"/> </p>
+
+### Cabe:
+<p align="center"> <img src="https://cdn.discordapp.com/attachments/1171704980990873640/1317004612552622150/model_flowchart_2.png?ex=675d1ba0&is=675bca20&hm=4b98b56b13cc5621c4e36702e0a67cf5d8035f298988553685612c3b90c3d419&" width="500" /> </p>
+
+### Padi:
+<p align="center"> <img src="https://cdn.discordapp.com/attachments/1171704980990873640/1317001912931057664/model_flowchart_1.png?ex=675d191c&is=675bc79c&hm=4a58f16bedc4b278b2121385619326611eb97da67c0bd44fb318e72d62e99f32&" width="500" height="700"/> </p>
 
