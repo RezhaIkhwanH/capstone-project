@@ -15,4 +15,38 @@ Plantgard is a mobile app that leverages AI and cloud computing to help Indonesi
 | 3   | Diestra Pradana Duta Ramadhan          | M008B4KY1125 | ML       |
 
 
+## What's inside of this repos??
+
+## What’s Inside This Repository?
+
+- **Model Code**: Implementation of the crop disease detection model using TensorFlow.
+- **Dataset Pipeline**: Scripts for preprocessing and augmenting the dataset for training.
+- **Training Notebooks**: Jupyter notebooks for model training and evaluation.
+- **Save Model**: Saved model files for deployment and further use.
+
+
+## How can you clone the project??:
+You can clone this repository with this methods:
+* HTTPS: Use Git or SVN checkout by making use of this URL: https://github.com/Kimitozuki/EduSign-ML.git
+  ```sh
+  git clone https://github.com/RezhaIkhwanH/capstone-project-ML.git
+  ```
+* GitHub CLI: Write this on the command line: 
+  ```sh
+  gh repo clone RezhaIkhwanH/capstone-project-ML
+  ```
+
+## Technology Used for ML Repo
+   - [Tensorflow](https://www.tensorflow.org/)
+   - [Python](https://www.python.org/)
+   - [Flask](https://flask.palletsprojects.com/en/2.3.x/)
+   - [MediaPipe](https://developers.google.com/mediapipe/solutions)
+
+## Dataset Resources
+   - [Kaggle - Google ISLR](https://www.kaggle.com/competitions/asl-signs/overview)
+   - [Kaggle - WASL](https://www.kaggle.com/datasets/risangbaskoro/wlasl-processed)
+
+## API URL Created by CC Team
+Flask API URL: [https://flaskapp-cr-v4-cky5j3e4sq-et.a.run.app/](https://flaskapp-cr-v4-cky5j3e4sq-et.a.run.app/)
+
 
